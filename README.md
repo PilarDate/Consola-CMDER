@@ -35,7 +35,6 @@ and para comparar si dos valores son verdaderos.
 -< Compara si es menor que otro valor.
 >= igual o mayor que el valor a comparar.
 <= igual o menor que el valor a comparar.
-Seguro que muchos lo podéis explicar mucho mas claro. Un saludo!
 
 EJEMPLO:
 pepe_estudia = True

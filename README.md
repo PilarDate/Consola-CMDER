@@ -25,7 +25,7 @@ Ingresa un dato:2
 >>> dato1+dato2
 3
 
-OPERADORES LÓGICOS
+# OPERADORES LÓGICOS
 and para comparar si dos valores son verdaderos.
 -or para comparar si dos valores son falsos.
 -not para invertir el valor booleano.
@@ -190,3 +190,42 @@ Elige una opción:
 2
 ¿Cuántos soles peruanos tienes?: 100
 Tienes $25.0 dólares
+
+# USANDO FUNCIONES PARA NO REPETIR CÓDIGO
+def ** nombre_funcion():
+desarrollo de la funcion.
+
+Los nombres de las funciones se escriben siempre en minusculas, nunca con numeros y siempre se separan con guion bajo.
+Parametros: variables que voy a tener disponibles para usarla dentro de la función.
+
+def conversacion (opcion):
+    opcion = str(opcion)
+    print('Hola')
+    print('Elijiste la opcion ' + opcion)
+    print('adios')
+
+opcion = int(input('Elije una opcion (1, 2, 3: '))
+
+if (opcion == 1):
+    conversacion(opcion)
+elif(opcion == 2):
+    conversacion(opcion)
+elif (opcion == 3):
+    conversacion(opcion)
+else: 
+    print('Elijiste una opcion invalida')
+    
+    REDUCIENDO CÓDIGO
+    
+    def conversacion(opt):
+    print('Hola')
+    print('Como estas')
+    print(f'Elegiste la opcion {opt}')
+    print('Adios')
+
+opcion = int(input('Elige una opción (1,2,3): '))
+
+conversacion(opcion)
+
+# CADENAS DE CARACTERES (TEXTO)
+

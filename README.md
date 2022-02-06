@@ -67,3 +67,59 @@ true or false = true
 false or true = true
 false or false = false
 
+
+PRIMER PROGRAMA CON PHYTON
+EN VISUAL CODE CREAR UN ARCHIVO py conversor.py ESCRIBIR EL SGTE. CÓDIGO:
+
+soles = input(" ¿cuantos soles tienes?: ") 
+soles= float(soles)
+valor_dolar=3.8
+dolares = soles/valor_dolar
+dolares=round(dolares,2)
+dolares=str(dolares)
+print("Tienes $" + dolares + " dolares")
+
+# RESPUESTA EN CMDER
+λ py conversor.py
+ ¿cuantos soles tienes?: 500
+Tienes $131.58 dolares
+
+UTILIZANDO CONDICIONALES
+# EN VISUAL CODE CREAR UN ARCHIVO py conversor.py ESCRIBIR EL SGTE. CÓDIGO:
+edad=int(input("Escribe tu edad: "))
+if edad >17:
+    print('joven estudiando en la U o trabajando')
+else:
+    print('joven estudiando secundaria- primaria-inicial-prekinder')
+
+# RESPUESTA EN CMDER
+λ py condicionales.py
+Escribe tu edad: 42
+joven estudiando en la U o trabajando
+
+λ py condicionales.py
+Escribe tu edad: 11
+joven estudiando secundaria- primaria-inicial-prekinder
+
+# OTRO EJEMPLO
+# EN VISUAL CODE CREAR UN ARCHIVO py conversor.py ESCRIBIR EL SGTE. CÓDIGO:
+numero =int(input("Escribe un numero: "))
+if numero > 5:
+    print('Es mayor a 5')
+elif numero == 5:
+    print('Es igual a 5')
+else:
+    print('Es menor a 5')
+    
+# RESPUESTA EN CMDER    
+λ py condicionales.py
+Escribe un numero: 5
+Es igual a 5
+
+λ py condicionales.py
+Escribe un numero: 6
+Es mayor a 5
+
+λ py condicionales.py
+Escribe un numero: 2
+Es menor a 5
